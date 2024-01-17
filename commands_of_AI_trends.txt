@@ -1,0 +1,63 @@
+Dokcer Commands : 
+1. Command to create a container from a image : sudo docker run --name <container name> -ti <image-name>
+2. Command to create a image from the container : sudo docker commit <container-name> <image-name>
+3. Command to delete container when the execution is completed : sudo docker run --rm -ti <container-name> <image-name>
+4. command to build a image from the dockerfile : sudo docker build -t <image-name> .
+5. command to remove a image : sudo docker rmi <image-name>
+6. command to pull a image : sudo docker pull <image-name>
+7. command to inspect a container : sudo docker inspect <container-name>
+8. command to check a url : curl <ip>
+9. command to start a container : sudo docker start <container-name>
+10. command to port map : sudo docker run --name <container-name> -p 7800:80 -d <image-name>
+11. command to stop a container : sudo docker stop <container-name>
+12. command to push image on the docker hub : sudo docker push <image-name>
+13. command to change the name of the image (always change it to the name of the account-name/repository-anme) :sudo docker tag <image-name> <new-image-name>
+14. command to login to the docker hub : sudo docker login
+15. command to check the running containers : sudo docker ps
+16. command to check the all the containers : sudo docker ps -a
+17. command to check the status of the docker service : sudo systemctl status docker
+18. command to permanently keep docker service running : sudo docker enable docker
+19. command to check all the networks : sudo docker network ls
+20. command to create  a network : sudo docker network create <network-name>
+21. command to remove a network : sudo docker network rm <network-name>
+22. command to stop a network : sudo docker network stop <network-name>
+23. command to disconnect a network : sudo docker network disconnect <network-name> <container-name>
+24. command to connect to a network : sudo docker network connect <network-name> <continer-name>
+25. command to create a database container : sudo docker run --name <container-name> -e MYSQL_ROOT_PASSWORD=<password> -d mysql
+26. command to save a image in a tar file : sudo docker save <image-name> > <tar_file-name>
+27. command to load a tar file : sudo docker load < <tar-file-anme>
+28. command to start a docker-compose file : sudo docker-compose up -d
+29. command to stop a docker-compose file : sudo docker-compose stop
+30. Commamd to create deployment : kubectl create deployment <deployment-name> --image=<image-name> --port=<port-number>
+31. command to check the deployment : kubectl get deployment 
+32. command to get pods : kubectl get pods
+33. command to get the ip-address of the pods : kubectl get pods -o wide
+34. command to get the info about the services : kubectl get svc
+35. command to create a service for the deployment : kubectl expose deployment <deployment-name>
+36. command to delete the service : kubectl delete service <service-name>
+37. command to create a service of the type "NodePort" : kubectl expose deployment <deployment-name> --type=NodePort
+38. command to get the url of the deployment : minikube service <deployment-name> --url
+39. command to scale the deployment : kubectl scale deployment <deployment-name> --replicas=4
+40. command to get the master node : sudo kubeadm init --apiserver-advertise-address=192.168.56.10 --pod-network-cidr=10.10.0.0/16
+41. command to initialize a git repository : git init
+42. command to check git branch : git branch
+43. command to check git status : git status
+44. command to all the files to the working area : git add -A
+45. command to remove file from the staging are : git rm --cached <file-name>
+46. command to git commit : git commit -m "<message>"
+47. command to check git log : git log
+48. command to login on to the git : git config --global user.name <username>
+49. command to add the mail add : git config --global user.email <email>
+50. command to revert to the older version : git revert <commit_id>
+51. command to checkout a branch : git checkout <beanc-name>
+52. command to delete a branch : git branch-d <branch-name>
+53. command to rename a branch : git branch -M <branch-name> <new-name>
+54. command to clone a git repository : git clone <repository url>
+55. command to clone all repository with all branches : git clone --mirror <repository url>
+56. command to add at the remote repository : git remote add origin <repository url>
+57. command to fetch all repository at once : fit fetch -a <repository url>
+58. command to start the jenkins server : java -jar jenkins.war
+59. command to move the file from local machine to the ec2 instance : sudo scp -i abc.pem <file-name> ubuntu@<ip.add>:/home/ubuntu
+60. command to drain  a node : kubectl drain <node-name> --ignore-daemonsets=true
+61. command to uncardon a node: kubectl uncardon <node-name>
+62. command to deploy a s3 bucket from cli : sudo aws s3api create-bucket --bucket <bucket-name> --region ap-south-1 --create-bucket-configuration LocationConstraint=ap-south-1
