@@ -1,0 +1,257 @@
+(base) dai@dai-Precision-7820-Tower:~/kube-git$ cd
+(base) dai@dai-Precision-7820-Tower:~$ mkdir gitass3
+(base) dai@dai-Precision-7820-Tower:~$ cd gitass3
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git init 
+Initialized empty Git repository in /home/dai/gitass3/.git/
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ nano file1
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ nano file2
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ nano file3
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git add -A
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git commit -m "all file commit"
+[master (root-commit) 58d141e] all file commit
+ 3 files changed, 3 insertions(+)
+ create mode 100644 file1
+ create mode 100644 file2
+ create mode 100644 file3
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ nano fil2
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ nano file2
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git commit -m  "file2 commit"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   file2
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git commit -m -a "file2 commit"
+error: pathspec 'file2 commit' did not match any file(s) known to git
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git add -A
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git commit -m  "file2 commit"
+[master 3287ba0] file2 commit
+ 1 file changed, 1 insertion(+)
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ nano file3
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git add -A
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git commit -m -a "file3"
+[master 2ee2230] -a
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ rm file2
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ ls
+file1  file3
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git commit -m "file2 removed commit"
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    file2
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git add -A
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git commit -m  "file2 removed commit "
+[master fda1087] file2 removed commit
+ 1 file changed, 2 deletions(-)
+ delete mode 100644 file2
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ ls
+file1  file3
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ nano file1
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ nano file3
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git add -A 
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git commit -m "file1 and file3 modify commit" 
+[master eaba4fd] file1 and file3 modify commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git log
+commit eaba4fdf18c9785b8a3e8f8f2879f9d5ee5fa2a0 (HEAD -> master)
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:43:23 2024 +0530
+
+    file1 and file3 modify commit
+
+commit fda1087543ac1bf27a48d46f6e3fb2da8f2cbe79
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:41:31 2024 +0530
+
+    file2 removed commit
+
+commit 2ee2230df6db56bd9810c841d39e552d3d369957
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:37:05 2024 +0530
+
+    -a
+
+commit 3287ba05de32287e83eb987a92f69a31f39a8111
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:36:07 2024 +0530
+
+    file2 commit
+
+commit 58d141eaa9e7ac6e93e5487d9a367f3b80457108
+ ESCOD
+Date:   Tue Jan 9 15:43:23 2024 +0530
+
+    file1 and file3 modify commit
+
+commit fda1087543ac1bf27a48d46f6e3fb2da8f2cbe79
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:41:31 2024 +0530
+
+    file2 removed commit
+
+commit 2ee2230df6db56bd9810c841d39e552d3d369957
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:37:05 2024 +0530
+
+    -a
+
+commit 3287ba05de32287e83eb987a92f69a31f39a8111
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:36:07 2024 +0530
+
+    file2 commit
+
+commit 58d141eaa9e7ac6e93e5487d9a367f3b80457108
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:33:40 2024 +0530
+
+    all file commit
+(END)
+commit fda1087543ac1bf27a48d46f6e3fb2da8f2cbe79
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:41:31 2024 +0530
+
+    file2 removed commit
+
+commit 2ee2230df6db56bd9810c841d39e552d3d369957
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:37:05 2024 +0530
+
+    -a
+
+commit 3287ba05de32287e83eb987a92f69a31f39a8111
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:36:07 2024 +0530
+
+    file2 commit
+
+commit 58d141eaa9e7ac6e93e5487d9a367f3b80457108
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:33:40 2024 +0530
+
+    all file commit
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)
+commit eaba4fdf18c9785b8a3e8f8f2879f9d5ee5fa2a0 (HEAD -> master)
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:43:23 2024 +0530
+
+    file1 and file3 modify commit
+
+commit fda1087543ac1bf27a48d46f6e3fb2da8f2cbe79
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:41:31 2024 +0530
+
+    file2 removed commit
+
+commit 2ee2230df6db56bd9810c841d39e552d3d369957
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:37:05 2024 +0530
+
+    -a
+
+commit 3287ba05de32287e83eb987a92f69a31f39a8111
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:36:07 2024 +0530
+
+    file2 commit
+
+commit 58d141eaa9e7ac6e93e5487d9a367f3b80457108
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:33:40 2024 +0530
+
+    all file commit
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git revert da1087543ac1bf27a48d46f6e3fb2da8f2cbe79
+fatal: bad revision 'da1087543ac1bf27a48d46f6e3fb2da8f2cbe79'
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ ls
+file1  file3
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git revert eaba4fdf18c9785b8a3e8f8f2879f9d5ee5fa2a0
+[master a248ff5] Revert "file1 and file3 modify commit"
+ 2 files changed, 1 insertion(+), 3 deletions(-)
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ ls
+file1  file3
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git revert fda1087543ac1bf27a48d46f6e3fb2da8f2cbe79
+[master 3d96f06] Revert "file2 removed commit"
+ 1 file changed, 2 insertions(+)
+ create mode 100644 file2
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ ls
+file1  file2  file3
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git show fda1087543ac1bf27a48d46f6e3fb2da8f2cbe79
+commit fda1087543ac1bf27a48d46f6e3fb2da8f2cbe79
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 15:41:31 2024 +0530
+
+    file2 removed commit
+
+diff --git a/file2 b/file2
+deleted file mode 100644
+index a45a594..0000000
+--- a/file2
++++ /dev/null
+@@ -1,2 +0,0 @@
+-another  line of code is here 
+-so we are here to modify this file 
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git show --pretty=" " --name-only fda1087543ac1bf27a48d46f6e3fb2da8f2cbe79
+fatal: invalid --pretty format:  
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git show --pretty="" --name-only fda1087543ac1bf27a48d46f6e3fb2da8f2cbe79
+file2
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ git show --pretty="" --name-only eaba4fdf18c9785b8a3e8f8f2879f9d5ee5fa2a0
+file1
+file3
+(base) dai@dai-Precision-7820-Tower:~/gitass3$ 
+s

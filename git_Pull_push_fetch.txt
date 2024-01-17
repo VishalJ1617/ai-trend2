@@ -1,0 +1,385 @@
+(base) dai@dai-Precision-7820-Tower:~$ git clone https://github.com/VishalJ1617/ai-trend2.git
+Cloning into 'ai-trend2'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.26 KiB | 647.00 KiB/s, done.
+(base) dai@dai-Precision-7820-Tower:~$ ls
+'1. Day wise study material -20231125T074558Z-001'  'DNN Assignment'                                                          ML_day2_Ridge_Regression.ipynb   Q2Ajay8003dai.ipynb   Untitled26.ipynb
+ 230940128003_Ajay                                  'DNN dataset'                                                             ML_Nov1_day3.ipynb               REACT                 Untitled27.ipynb
+ 230940128003.zip                                    Documents                                                                ML_Nov2_day4.ipynb               scikit_learn_data     Untitled28.ipynb
+'6. DNN'                                             Downloads                                                                models                           snap                  Untitled29.ipynb
+ ai-trend2                                           eggs.csv                                                                 Music                            some.csv              Untitled2.ipynb
+ AI_Trends                                           first_scrapy                                                             mydb.db-journal                  src                   Untitled30.ipynb
+'Ai trends assignments'                              Flaskdemo                                                                names.csv                        Templates             Untitled31.ipynb
+ Ajay_8003                                           git-aitrends                                                             NLP                              tensorflow_datasets   Untitled32.ipynb
+'Ajay DNN'                                           gitass3                                                                  NLP.zip                          Untitled10.ipynb      Untitled33.ipynb
+ anaconda3                                           gitclone                                                                 nltk_data                        Untitled11.ipynb      Untitled34.ipynb
+ BS4                                                 histogram.ipynb                                                          node2.ova                        Untitled12.ipynb      Untitled3.ipynb
+ c1                                                  histogram.py                                                             numpy                            Untitled13.ipynb      Untitled4.ipynb
+ c2                                                  input                                                                    output                           Untitled14.ipynb      Untitled5.ipynb
+ c3                                                  jdk-21_linux-aarch64_bin                                                 page1.html                       Untitled15.ipynb      Untitled6.ipynb
+ c4                                                  jupyter-tensorflow.tar                                                   partialcalcu.py                  Untitled16.ipynb      Untitled7.ipynb
+ c5                                                  ktrain_data                                                             'pattern matching.py'             Untitled17.ipynb      Untitled8.ipynb
+ c6                                                  kube-git                                                                 Pictures                         Untitled18.ipynb      Untitled9.ipynb
+ c7                                                 'L06_one_hidden_layer_tanh_multiclass_FIFA_wip_Adam optimization.ipynb'   PML_case_FIles                   Untitled19.ipynb      Untitled.ipynb
+ c8                                                  L08_torch_one_layer_FIFA_wip.ipynb                                       polyglot_data                    Untitled1.ipynb       untitled.txt
+ CountryDataIND.csv                                  L09_one_hidden_layer_tanh_multiclass_FIFA_wip.ipynb                      Public                           Untitled20.ipynb      Videos
+ datavisualization.py                                la                                                                       purchase_data.csv                Untitled21.ipynb     'VirtualBox VMs'
+'Day 6.ipynb'                                       'Machine Learning Datasets'                                               __pycache__                      Untitled22.ipynb
+'Day6(Pytorch_framwork).ipynb'                       ML_Assignment2.ipynb                                                     Python                           Untitled23.ipynb
+ Desktop                                             ML_Assignment3.ipynb                                                     python_sc                        Untitled24.ipynb
+ djangodemo                                          ML_Assignment4.ipynb                                                     Q1Ajay8003dai.ipynb              Untitled25.ipynb
+(base) dai@dai-Precision-7820-Tower:~$ ^C
+(base) dai@dai-Precision-7820-Tower:~$ cd  ai-trend2
+(base) dai@dai-Precision-7820-Tower:~/ai-trend2$ git branch
+* main
+(base) dai@dai-Precision-7820-Tower:~/ai-trend2$ cd
+(base) dai@dai-Precision-7820-Tower:~$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+(base) dai@dai-Precision-7820-Tower:~$ mkdir test 
+(base) dai@dai-Precision-7820-Tower:~$ cd test
+(base) dai@dai-Precision-7820-Tower:~/test$ gti clone https://github.com/VishalJ1617/ai-trend2.git reg
+
+Command 'gti' not found, did you mean:
+
+  command 'gtg' from snap getting-things-gnome (0.6)
+  command 'ti' from deb ticgit (1.0.2.17-2.1)
+  command 'gt' from deb genometools (1.6.1+ds-2)
+  command 'git' from deb git (1:2.25.1-1ubuntu3.11)
+  command 'bti' from deb bti (034-4build1)
+  command 'gli' from deb ruby-gli (2.14.0-1)
+  command 'gtv' from deb smpeg-gtv (0.4.5+cvs20030824-8build1)
+  command 'gtf' from deb xserver-xorg-core (2:1.20.13-1ubuntu1~20.04.9)
+  command 'gth' from deb genomethreader (1.7.3+dfsg-5)
+  command 'gt5' from deb gt5 (1.5.0~20111220+bzr29-3)
+  command 'gmi' from deb gmailieer (0.10-1)
+  command 'ghi' from deb ghi (1.2.0-1)
+  command 'gsi' from deb gambc (4.8.8-3.1)
+
+See 'snap info <snapname>' for additional versions.
+
+(base) dai@dai-Precision-7820-Tower:~/test$ gti clone https://github.com/VishalJ1617/ai-trend2.git -b reg
+
+Command 'gti' not found, did you mean:
+
+  command 'gtg' from snap getting-things-gnome (0.6)
+  command 'ti' from deb ticgit (1.0.2.17-2.1)
+  command 'ghi' from deb ghi (1.2.0-1)
+  command 'gth' from deb genomethreader (1.7.3+dfsg-5)
+  command 'bti' from deb bti (034-4build1)
+  command 'gt5' from deb gt5 (1.5.0~20111220+bzr29-3)
+  command 'gli' from deb ruby-gli (2.14.0-1)
+  command 'gtv' from deb smpeg-gtv (0.4.5+cvs20030824-8build1)
+  command 'gsi' from deb gambc (4.8.8-3.1)
+  command 'gmi' from deb gmailieer (0.10-1)
+  command 'git' from deb git (1:2.25.1-1ubuntu3.11)
+  command 'gt' from deb genometools (1.6.1+ds-2)
+  command 'gtf' from deb xserver-xorg-core (2:1.20.13-1ubuntu1~20.04.9)
+
+See 'snap info <snapname>' for additional versions.
+
+(base) dai@dai-Precision-7820-Tower:~/test$ git clone https://github.com/VishalJ1617/ai-trend2.git -b reg
+Cloning into 'ai-trend2'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.26 KiB | 647.00 KiB/s, done.
+(base) dai@dai-Precision-7820-Tower:~/test$ ls
+ai-trend2
+(base) dai@dai-Precision-7820-Tower:~/test$ git branch
+(base) dai@dai-Precision-7820-Tower:~/test$ cd ai-trend2
+(base) dai@dai-Precision-7820-Tower:~/test/ai-trend2$ git branch
+* reg
+(base) dai@dai-Precision-7820-Tower:~/test/ai-trend2$ cd ..
+(base) dai@dai-Precision-7820-Tower:~/test$ rm -rf ai-trend2/
+(base) dai@dai-Precision-7820-Tower:~/test$ git clone --mirror  https://github.com/VishalJ1617/ai-trend2.git
+Cloning into bare repository 'ai-trend2.git'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.26 KiB | 647.00 KiB/s, done.
+(base) dai@dai-Precision-7820-Tower:~/test$ cd ..
+(base) dai@dai-Precision-7820-Tower:~$ cd test
+(base) dai@dai-Precision-7820-Tower:~/test$ cd si-trend2
+bash: cd: si-trend2: No such file or directory
+(base) dai@dai-Precision-7820-Tower:~/test$ cd ai-trend2
+bash: cd: ai-trend2: No such file or directory
+(base) dai@dai-Precision-7820-Tower:~/test$ cd ai-trend2/
+bash: cd: ai-trend2/: No such file or directory
+(base) dai@dai-Precision-7820-Tower:~/test$ ls
+ai-trend2.git
+(base) dai@dai-Precision-7820-Tower:~/test$ cd ai-trend2.git/
+(base) dai@dai-Precision-7820-Tower:~/test/ai-trend2.git$ git branch
+* main
+  reg
+(base) dai@dai-Precision-7820-Tower:~/test/ai-trend2.git$ cd ..
+(base) dai@dai-Precision-7820-Tower:~/test$ git clone -h | less
+(base) dai@dai-Precision-7820-Tower:~/test$ ls
+ai-trend2.git
+(base) dai@dai-Precision-7820-Tower:~/test$ cd ai-trend2.git/
+(base) dai@dai-Precision-7820-Tower:~/test/ai-trend2.git$ ls
+branches  config  description  HEAD  hooks  info  objects  packed-refs  refs
+(base) dai@dai-Precision-7820-Tower:~/test/ai-trend2.git$ cd ..
+\(base) dai@dai-Precision-7820-Tower:~/test$ cd si-trend2
+bash: cd: si-trend2: No such file or directory
+(base) dai@dai-Precision-7820-Tower:~/test$ cd ai-trend2
+bash: cd: ai-trend2: No such file or directory
+(base) dai@dai-Precision-7820-Tower:~/test$ cd ai-trend2.git/
+(base) dai@dai-Precision-7820-Tower:~/test/ai-trend2.git$ ls
+branches  config  description  HEAD  hooks  info  objects  packed-refs  refs
+(base) dai@dai-Precision-7820-Tower:~/test/ai-trend2.git$ git branch
+* main
+  reg
+(base) dai@dai-Precision-7820-Tower:~/test/ai-trend2.git$ git branch -a
+* main
+  reg
+(base) dai@dai-Precision-7820-Tower:~/test/ai-trend2.git$ git checkout -b reg remotes/origin/reg
+fatal: this operation must be run in a work tree
+(base) dai@dai-Precision-7820-Tower:~/test/ai-trend2.git$ ls
+branches  config  description  HEAD  hooks  info  objects  packed-refs  refs
+(base) dai@dai-Precision-7820-Tower:~/test/ai-trend2.git$ git checkout -b reg
+fatal: this operation must be run in a work tree
+(base) dai@dai-Precision-7820-Tower:~/test/ai-trend2.git$ git checkout reg
+fatal: this operation must be run in a work tree
+(base) dai@dai-Precision-7820-Tower:~/test/ai-trend2.git$ cd ..
+(base) dai@dai-Precision-7820-Tower:~/test$ git pull https://github.com/VishalJ1617/ai-trend2.git
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 615 bytes | 615.00 KiB/s, done.
+From https://github.com/VishalJ1617/ai-trend2
+ * branch            HEAD       -> FETCH_HEAD
+(base) dai@dai-Precision-7820-Tower:~/test$ git init
+Initialized empty Git repository in /home/dai/test/.git/
+(base) dai@dai-Precision-7820-Tower:~/test$ git log
+fatal: your current branch 'master' does not have any commits yet
+(base) dai@dai-Precision-7820-Tower:~/test$ git add -A
+(base) dai@dai-Precision-7820-Tower:~/test$ git commit -m "this is acommit" 
+[master (root-commit) 3765aba] this is acommit
+ 23 files changed, 667 insertions(+)
+ create mode 100644 ai-trend2.git/HEAD
+ create mode 100644 ai-trend2.git/config
+ create mode 100644 ai-trend2.git/description
+ create mode 100755 ai-trend2.git/hooks/applypatch-msg.sample
+ create mode 100755 ai-trend2.git/hooks/commit-msg.sample
+ create mode 100755 ai-trend2.git/hooks/fsmonitor-watchman.sample
+ create mode 100755 ai-trend2.git/hooks/post-update.sample
+ create mode 100755 ai-trend2.git/hooks/pre-applypatch.sample
+ create mode 100755 ai-trend2.git/hooks/pre-commit.sample
+ create mode 100755 ai-trend2.git/hooks/pre-merge-commit.sample
+ create mode 100755 ai-trend2.git/hooks/pre-push.sample
+ create mode 100755 ai-trend2.git/hooks/pre-rebase.sample
+ create mode 100755 ai-trend2.git/hooks/pre-receive.sample
+ create mode 100755 ai-trend2.git/hooks/prepare-commit-msg.sample
+ create mode 100755 ai-trend2.git/hooks/update.sample
+ create mode 100644 ai-trend2.git/info/exclude
+ create mode 100644 ai-trend2.git/objects/2c/e6edc5c4e5ff7c43aed5055418bcaaa42a180b
+ create mode 100644 ai-trend2.git/objects/46/d138bb910744d93044a44ee67c08b24dfe17d4
+ create mode 100644 ai-trend2.git/objects/67/b62227450834997b263b10dcc79957aebfad61
+ create mode 100644 ai-trend2.git/objects/c5/bc1ea19429fdf2d1f2a75a8ca5a4fc6e96ea8e
+ create mode 100644 ai-trend2.git/objects/d7/a9f807fe9509467efc2f22145d338cb1451683
+ create mode 100644 ai-trend2.git/objects/df/7234a843924d2b7889ea3f46f6065523177e98
+ create mode 100644 ai-trend2.git/packed-refs
+(base) dai@dai-Precision-7820-Tower:~/test$ git log
+commit 3765ababfae5105a23d38e1338a61d8c40c85be2 (HEAD -> master)
+Author: dev1 <dev1@demo.labs>
+Date:   Tue Jan 9 17:37:59 2024 +0530
+
+    this is acommit
+(base) dai@dai-Precision-7820-Tower:~/test$ git branch
+* master
+(base) dai@dai-Precision-7820-Tower:~/test$ git pull origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+(base) dai@dai-Precision-7820-Tower:~/test$ git remote add origin https://github.com/VishalJ1617/ai-trend2.git
+(base) dai@dai-Precision-7820-Tower:~/test$ git pull origin mai
+fatal: couldn't find remote ref mai
+(base) dai@dai-Precision-7820-Tower:~/test$ git pull origin main
+warning: no common commits
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 615 bytes | 615.00 KiB/s, done.
+From https://github.com/VishalJ1617/ai-trend2
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+fatal: refusing to merge unrelated histories
+(base) dai@dai-Precision-7820-Tower:~/test$ git branch
+* master
+(base) dai@dai-Precision-7820-Tower:~/test$ cd ..
+(base) dai@dai-Precision-7820-Tower:~$ mkdir gittest1
+(base) dai@dai-Precision-7820-Tower:~$ cd git test1
+bash: cd: too many arguments
+(base) dai@dai-Precision-7820-Tower:~$ cd gittest1`
+> ^C
+(base) dai@dai-Precision-7820-Tower:~$ cd gittest1
+(base) dai@dai-Precision-7820-Tower:~/gittest1$ git fetch https://github.com/VishalJ1617/ai-trend2.git
+From https://github.com/VishalJ1617/ai-trend2
+ * branch            HEAD       -> FETCH_HEAD
+(base) dai@dai-Precision-7820-Tower:~/gittest1$ git log
+commit df7234a843924d2b7889ea3f46f6065523177e98 (HEAD -> master)
+Author: VishalJ1617 <147841658+VishalJ1617@users.noreply.github.com>
+Date:   Tue Jan 9 17:18:16 2024 +0530
+
+    Create index.html
+(base) dai@dai-Precision-7820-Tower:~/gittest1$ cd ..
+(base) dai@dai-Precision-7820-Tower:~$ mkdir gittestfile
+(base) dai@dai-Precision-7820-Tower:~$ cd git
+bash: cd: git: No such file or directory
+(base) dai@dai-Precision-7820-Tower:~$ cd gittest
+gittest1/    gittestfile/ 
+(base) dai@dai-Precision-7820-Tower:~$ cd gittest
+gittest1/    gittestfile/ 
+(base) dai@dai-Precision-7820-Tower:~$ cd gittestfile
+(base) dai@dai-Precision-7820-Tower:~/gittestfile$ ls
+(base) dai@dai-Precision-7820-Tower:~/gittestfile$ git fetch https://github.com/VishalJ1617/ai-trend2.git
+From https://github.com/VishalJ1617/ai-trend2
+ * branch            HEAD       -> FETCH_HEAD
+(base) dai@dai-Precision-7820-Tower:~/gittestfile$ git log
+commit df7234a843924d2b7889ea3f46f6065523177e98 (HEAD -> master)
+Author: VishalJ1617 <147841658+VishalJ1617@users.noreply.github.com>
+Date:   Tue Jan 9 17:18:16 2024 +0530
+
+    Create index.html
+(base) dai@dai-Precision-7820-Tower:~/gittestfile$ git branch -a
+* master
+(base) dai@dai-Precision-7820-Tower:~/gittestfile$ cd
+(base) dai@dai-Precision-7820-Tower:~$ mkdir test3
+(base) dai@dai-Precision-7820-Tower:~$ cd test3
+(base) dai@dai-Precision-7820-Tower:~/test3$ ls
+(base) dai@dai-Precision-7820-Tower:~/test3$ git clone https://github.com/VishalJ1617/ai-trend2.git
+Cloning into 'ai-trend2'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.26 KiB | 647.00 KiB/s, done.
+(base) dai@dai-Precision-7820-Tower:~/test3$ cd ai-trends
+bash: cd: ai-trends: No such file or directory
+(base) dai@dai-Precision-7820-Tower:~/test3$ cd ai-trend2
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ ls
+index.html
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ git pull origin main
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 681 bytes | 681.00 KiB/s, done.
+From https://github.com/VishalJ1617/ai-trend2
+ * branch            main       -> FETCH_HEAD
+   df7234a..54c23f6  main       -> origin/main
+Updating df7234a..54c23f6
+Fast-forward
+ deom1.html | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 deom1.html
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ ls
+deom1.html  index.html
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ git log
+commit 54c23f6117401b2b72a581fadc98dfbad2a7fecc (HEAD -> main, origin/main, origin/HEAD)
+Author: VishalJ1617 <147841658+VishalJ1617@users.noreply.github.com>
+Date:   Tue Jan 9 17:49:12 2024 +0530
+
+    Create deom1.html
+
+commit df7234a843924d2b7889ea3f46f6065523177e98
+Author: VishalJ1617 <147841658+VishalJ1617@users.noreply.github.com>
+Date:   Tue Jan 9 17:18:16 2024 +0530
+
+    Create index.html
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ git fetch origin main
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 712 bytes | 712.00 KiB/s, done.
+From https://github.com/VishalJ1617/ai-trend2
+ * branch            main       -> FETCH_HEAD
+   54c23f6..917b578  main       -> origin/main
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ ls
+deom1.html  index.html
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ git status
+On branch main
+Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working tree clean
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ cat deom1.html
+This is a demo for Git Pull
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ git fetch origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 733 bytes | 733.00 KiB/s, done.
+From https://github.com/VishalJ1617/ai-trend2
+ * branch            main       -> FETCH_HEAD
+   917b578..056cfdb  main       -> origin/main
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ ls
+deom1.html  index.html
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ git pull origin main
+From https://github.com/VishalJ1617/ai-trend2
+ * branch            main       -> FETCH_HEAD
+Updating 54c23f6..056cfdb
+Fast-forward
+ deom1.html | 1 +
+ test1.html | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 test1.html
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ ls
+deom1.html  index.html  test1.html
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ git los
+git: 'los' is not a git command. See 'git --help'.
+
+The most similar command is
+	log
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ git log
+commit 056cfdbfaf3b5287e31774b785178b71a55b4e16 (HEAD -> main, origin/main, origin/HEAD)
+Author: VishalJ1617 <147841658+VishalJ1617@users.noreply.github.com>
+Date:   Tue Jan 9 17:54:57 2024 +0530
+
+    Update deom1.html
+
+commit 917b578a66068c3e07821e6905cb08ac35f52a20
+Author: VishalJ1617 <147841658+VishalJ1617@users.noreply.github.com>
+Date:   Tue Jan 9 17:50:58 2024 +0530
+
+    Create test1.html
+
+commit 54c23f6117401b2b72a581fadc98dfbad2a7fecc
+Author: VishalJ1617 <147841658+VishalJ1617@users.noreply.github.com>
+Date:   Tue Jan 9 17:49:12 2024 +0530
+
+    Create deom1.html
+
+commit df7234a843924d2b7889ea3f46f6065523177e98
+Author: VishalJ1617 <147841658+VishalJ1617@users.noreply.github.com>
+Date:   Tue Jan 9 17:18:16 2024 +0530
+
+    Create index.html
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ git fetch https://github.com/VishalJ1617/ai-trend2.git
+From https://github.com/VishalJ1617/ai-trend2
+ * branch            HEAD       -> FETCH_HEAD
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ cd test3/ai-trend2
+bash: cd: test3/ai-trend2: No such file or directory
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) dai@dai-Precision-7820-Tower:~/test3/ai-trend2$ 
+
+

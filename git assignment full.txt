@@ -1,0 +1,117 @@
+(base) dai@dai-Precision-7820-Tower:~$ cd git-aitrends
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ ls
+index.html
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ git commit -m "product.html added" 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.product.html.swp
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ git add -A
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ git commit -m "product.html added" 
+[main 6f89a78] product.html added
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .product.html.swp
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ git push origin main
+Username for 'https://github.com': VishalJ1617
+Password for 'https://VishalJ1617@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/VishalJ1617/git-aitrends.git/'
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ git push origin main
+Username for 'https://github.com': ^C   
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ git push origin main
+Username for 'https://github.com': VishalJ1617
+Password for 'https://VishalJ1617@github.com': 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 491 bytes | 491.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/VishalJ1617/git-aitrends.git
+   b7b7052..6f89a78  main -> main
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ nano index.html
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ git add -a
+error: unknown switch `a'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ git add -A
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ git commit -m "this a local example commit"
+[main cb8eac2] this a local example commit
+ 1 file changed, 1 insertion(+)
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ git push origin main
+Username for 'https://github.com': VishalJ1617
+Password for 'https://VishalJ1617@github.com': 
+To https://github.com/VishalJ1617/git-aitrends.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/VishalJ1617/git-aitrends.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 722 bytes | 722.00 KiB/s, done.
+From https://github.com/VishalJ1617/git-aitrends
+ * branch            main       -> FETCH_HEAD
+   6f89a78..13b8b68  main       -> origin/main
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ nano index.html
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ nano index.html
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ git status 
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	both modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ git add -A
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ git commit -m "this a local commit"
+[main b86066c] this a local commit
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ ^C
+(base) dai@dai-Precision-7820-Tower:~/git-aitrends$ 
+
